@@ -1,0 +1,17 @@
+# Artefactos de compilacion (no se versionan; se generan al compilar)
+
+# C / C++
+*.o
+*.out
+a.out
+ej[0-9]*
+ejercicio[0-9]*
+!*.c
+!*.cpp
+
+# Java
+*.class
+
+# Editores / sistema
+*~
+.DS_Store
