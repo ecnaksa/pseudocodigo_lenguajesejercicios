@@ -30,15 +30,17 @@ pseudocodigo_lenguajesejercicios/
 │   ├── cpp/   ejercicio01.cpp … ejercicio15.cpp
 │   └── java/  Ejercicio01.java … Ejercicio15.java
 └── banco_problemas_aplicados/   ← 4) problemas NUEVOS aplicados a ingeniería (por sets)
-    └── nivel_basico/                20 problemas de electrónica (pseudocódigo + teoría + C/C++/Java)
+    ├── nivel_basico/                20 problemas de electrónica (pseudocódigo + teoría + C/C++/Java)
+    └── nivel_intermedio/            19 problemas: señales, buffers y MATRICES (misma estructura)
 ```
 
 > **Dos partes.** El repositorio tiene (a) los **15 ejercicios originales** corregidos
 > (`pseudocodigo_corregido/`, `teoria/`, `soluciones/`) y (b) el
 > **[`banco_problemas_aplicados/`](banco_problemas_aplicados)**, una carpeta contenedora de
-> problemas nuevos aplicados a electrónica, organizada por sets (el primero,
-> [`nivel_basico/`](banco_problemas_aplicados/nivel_basico), con 20 problemas; se agregarán más
-> sets en subcarpetas hermanas).
+> problemas nuevos aplicados a ingeniería, organizada por sets:
+> [`nivel_basico/`](banco_problemas_aplicados/nivel_basico) (20 problemas) y
+> [`nivel_intermedio/`](banco_problemas_aplicados/nivel_intermedio) (19 problemas, incluye
+> matrices); se agregarán más sets en subcarpetas hermanas.
 
 ## Los 15 ejercicios
 
