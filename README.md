@@ -25,11 +25,20 @@ pseudocodigo_lenguajesejercicios/
 │   ├── 04_entrada_y_salida.md
 │   ├── 05_control_de_flujo.md
 │   └── 06_tipos_y_division.md
-└── soluciones/                  ← 3) código correcto y probado
-    ├── c/     ejercicio01.c   … ejercicio15.c
-    ├── cpp/   ejercicio01.cpp … ejercicio15.cpp
-    └── java/  Ejercicio01.java … Ejercicio15.java
+├── soluciones/                  ← 3) código correcto y probado
+│   ├── c/     ejercicio01.c   … ejercicio15.c
+│   ├── cpp/   ejercicio01.cpp … ejercicio15.cpp
+│   └── java/  Ejercicio01.java … Ejercicio15.java
+└── banco_problemas_aplicados/   ← 4) problemas NUEVOS aplicados a ingeniería (por sets)
+    └── nivel_basico/                20 problemas de electrónica (pseudocódigo + teoría + C/C++/Java)
 ```
+
+> **Dos partes.** El repositorio tiene (a) los **15 ejercicios originales** corregidos
+> (`pseudocodigo_corregido/`, `teoria/`, `soluciones/`) y (b) el
+> **[`banco_problemas_aplicados/`](banco_problemas_aplicados)**, una carpeta contenedora de
+> problemas nuevos aplicados a electrónica, organizada por sets (el primero,
+> [`nivel_basico/`](banco_problemas_aplicados/nivel_basico), con 20 problemas; se agregarán más
+> sets en subcarpetas hermanas).
 
 ## Los 15 ejercicios
 
