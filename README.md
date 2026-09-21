@@ -29,18 +29,30 @@ pseudocodigo_lenguajesejercicios/
 │   ├── c/     ejercicio01.c   … ejercicio15.c
 │   ├── cpp/   ejercicio01.cpp … ejercicio15.cpp
 │   └── java/  Ejercicio01.java … Ejercicio15.java
-└── banco_problemas_aplicados/   ← 4) problemas NUEVOS aplicados a ingeniería (por sets)
-    ├── nivel_basico/                20 problemas de electrónica (pseudocódigo + teoría + C/C++/Java)
-    └── nivel_intermedio/            19 problemas: señales, buffers y MATRICES (misma estructura)
+├── banco_problemas_aplicados/   ← 4) problemas NUEVOS aplicados a ingeniería (por sets)
+│   ├── nivel_basico/                20 problemas de electrónica (pseudocódigo + teoría + C/C++/Java)
+│   └── nivel_intermedio/            19 problemas: señales, buffers y MATRICES (misma estructura)
+├── curso_c_cpp/                 ← 5) curso DESDE CERO de C y C++ (teoría + práctica, por temas)
+│   ├── c/     14 lecciones: de "hola mundo" a punteros, structs, archivos y un proyecto final
+│   └── cpp/   13 lecciones: de C a C++, POO, plantillas, STL, RAII y un proyecto final
+└── curso_java/                  ← 6) curso DESDE CERO de Java (teoría + práctica, por temas)
+    └── 01…17   de "hola mundo" a POO, colecciones, excepciones, streams y un proyecto final
 ```
 
-> **Dos partes.** El repositorio tiene (a) los **15 ejercicios originales** corregidos
-> (`pseudocodigo_corregido/`, `teoria/`, `soluciones/`) y (b) el
-> **[`banco_problemas_aplicados/`](banco_problemas_aplicados)**, una carpeta contenedora de
-> problemas nuevos aplicados a ingeniería, organizada por sets:
-> [`nivel_basico/`](banco_problemas_aplicados/nivel_basico) (20 problemas) y
-> [`nivel_intermedio/`](banco_problemas_aplicados/nivel_intermedio) (19 problemas, incluye
-> matrices); se agregarán más sets en subcarpetas hermanas.
+> **Cuatro partes.** El repositorio tiene:
+> - (a) los **15 ejercicios originales** corregidos (`pseudocodigo_corregido/`, `teoria/`,
+>   `soluciones/`);
+> - (b) el **[`banco_problemas_aplicados/`](banco_problemas_aplicados)**, una carpeta contenedora
+>   de problemas nuevos aplicados a ingeniería, organizada por sets:
+>   [`nivel_basico/`](banco_problemas_aplicados/nivel_basico) (20 problemas) y
+>   [`nivel_intermedio/`](banco_problemas_aplicados/nivel_intermedio) (19 problemas, incluye
+>   matrices); se agregarán más sets en subcarpetas hermanas;
+> - (c) el **[`curso_c_cpp/`](curso_c_cpp)**, un curso **desde cero** de C y C++, y
+> - (d) el **[`curso_java/`](curso_java)**, un curso **desde cero** de Java.
+>
+> Los dos cursos están organizados por **temas con progresión** (al estilo de *30-Days-Of-Python*,
+> pero por temas y no por días), con **teoría y práctica** en cada lección y las **fuentes**
+> (libros, páginas) citadas en su `FUENTES.md`.
 
 ## Los 15 ejercicios
 
@@ -85,6 +97,30 @@ frecuentes (detallados ejercicio por ejercicio en [`pseudocodigo_corregido/`](ps
   errores):
   - **Ej. 12:** el bloque `Algoritmo` haciendo de `main` (estilo PSeInt puro).
   - **Ej. 14 y 15:** `Escribir sin saltar` = imprimir sin salto de línea.
+
+## Cursos desde cero (C, C++ y Java)
+
+Además de los ejercicios, el repositorio incluye **dos cursos completos** para aprender los
+lenguajes **desde cero**, con teoría detallada, ejemplos ejecutables y ejercicios con solución en
+cada lección. Todo el código fue **compilado y probado** (JDK 21, `gcc -std=c11`,
+`g++ -std=c++17`).
+
+- **[`curso_c_cpp/`](curso_c_cpp)** — C y C++ en dos pistas:
+  - `c/`: 14 lecciones, de "hola mundo", tipos y control de flujo a **funciones, arreglos,
+    cadenas, punteros, memoria dinámica, structs, archivos y compilación multiarchivo**, con un
+    **proyecto final** (agenda de contactos con persistencia).
+  - `cpp/`: 13 lecciones, de **C a C++**, `iostream`, referencias, **POO** (clases,
+    herencia/polimorfismo), **sobrecarga de operadores**, **plantillas**, la **STL**
+    (`vector`, `map`, algoritmos, lambdas), **RAII/punteros inteligentes** y **excepciones**, con
+    un **proyecto final** (biblioteca).
+- **[`curso_java/`](curso_java)** — Java en 17 lecciones: de la **JVM** y "hola mundo" a tipos y
+  `Scanner`, control de flujo, métodos, arreglos y cadenas, **POO** (clases, herencia, interfaces,
+  polimorfismo), **colecciones** (`ArrayList`, `HashMap`), **excepciones** y **lambdas/streams**,
+  con un **proyecto final** (gestor de tareas). Empieza por su
+  [`README.md`](curso_java/README.md) y [`CONFIGURACION.md`](curso_java/CONFIGURACION.md).
+
+Cada curso cita sus fuentes en `FUENTES.md`
+([C/C++](curso_c_cpp/FUENTES.md) · [Java](curso_java/FUENTES.md)).
 
 ## Por dónde empezar
 
