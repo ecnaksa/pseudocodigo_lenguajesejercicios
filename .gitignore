@@ -12,6 +12,9 @@ ejercicio[0-9]*
 # Java
 *.class
 
+# Rust (Cargo genera todo en target/)
+target/
+
 # Editores / sistema
 *~
 .DS_Store
