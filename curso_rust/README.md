@@ -122,5 +122,6 @@ haber entendido bien las lecciones 07 y 08.
   ```
   Todo el código se probó también con la **edición 2024** (la que genera hoy `cargo new`). Versión
   de Rust usada para probar: **1.94**.
-- Todo el código compila **sin advertencias** (*warnings*). Si al compilar ves una advertencia en tu
-  propio código, léela: casi siempre señala algo real (una variable sin usar, un `mut` innecesario…).
+- Todo el código compila **sin advertencias** (*warnings*) y pasa **Clippy** (el *linter* oficial)
+  sin avisos. Si al compilar ves una advertencia en tu propio código, léela: casi siempre señala
+  algo real (una variable sin usar, un `mut` innecesario…).

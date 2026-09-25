@@ -34,7 +34,7 @@ fn main() {
     println!("{:*^7}", "ab"); // relleno personalizado
 
     // ----- Decimales -----
-    let pi = 3.14159;
+    let pi = std::f64::consts::PI; // 3.141592653589793
     println!("{:.2}", pi); // 3.14
     println!("[{:8.2}]", pi); // [    3.14]
     println!("{:.0}", 2.5_f64); // 2 (redondeo "al par" en el empate)
