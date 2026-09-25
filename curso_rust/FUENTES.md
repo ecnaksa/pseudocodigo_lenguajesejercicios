@@ -98,6 +98,15 @@ adopción de Rust en la industria, provienen de:
 - **Núcleo de Linux:** el soporte para escribir código del núcleo en Rust se incorporó en la
   versión **6.1** (diciembre de 2022).
 
+## Otros datos y referencias citados en las lecciones
+
+- **NASA — *Mars Climate Orbiter Mishap Investigation Board Phase I Report* (10 de noviembre de
+  1999).** La sonda se perdió porque un programa entregaba impulsos en libras-fuerza·segundo y otro
+  los interpretaba en newton·segundo. Se cita en la lección 09 para motivar el patrón *newtype*.
+- **Gamma, E., Helm, R., Johnson, R. & Vlissides, J. — *Design Patterns: Elements of Reusable
+  Object-Oriented Software* (Addison-Wesley, 1994).** Origen del principio "favorece la composición
+  sobre la herencia", que Rust adopta al no tener herencia de clases (lecciones 09 y 13).
+
 ## Historia del lenguaje (lección 01)
 
 - Rust empezó en 2006 como proyecto personal de **Graydon Hoare**; **Mozilla** lo patrocinó desde
